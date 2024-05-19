@@ -1,0 +1,45 @@
+.login {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginHeader {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.loginText {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+img {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.formLogin {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#input-email {
+    margin-bottom: 30px;
+}
+
+#inline-esqueci-senha {
+    margin-bottom: 30px;
+}
+
+#inline-cadastro {
+    display: flex;
+    justify-content: center;
+}

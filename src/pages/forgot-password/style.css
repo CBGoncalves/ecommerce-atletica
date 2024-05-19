@@ -1,0 +1,20 @@
+.forgot-password-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-phase {
+    margin-bottom: 50px;
+}
+
+#forgot-input {
+    margin-bottom: 30px;
+}
+
+#forgot-button {
+    margin-bottom: 10px;
+    width: 420px;
+}
