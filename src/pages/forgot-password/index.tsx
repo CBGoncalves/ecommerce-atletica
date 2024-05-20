@@ -14,7 +14,7 @@ export default function ForgotPassword() {
 
             <Input id="forgot-input" type="text" placeholder="E-mail" />
             <div className="button-div">
-                <Button id="forgot-button" text="ENVIAR" />
+                <Button id="forgot-button" link="/" text="ENVIAR" />
             </div>
             <InlineButton id="inline-button" link="/" text="Já possui conta? Fazer Login!" />
         </div>
