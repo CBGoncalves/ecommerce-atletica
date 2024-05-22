@@ -121,7 +121,7 @@ const CheckoutPage: React.FC = () => {
                 <input type="text" placeholder="Código de Desconto" />
               </div>
             </div>
-            <button type="submit" onClick={handleSubmit}>Finalizar Compra</button>
+            <button type="submit" onClick={handleSubmit}>Continuar</button>
           </div>
         </div>
       </div>
