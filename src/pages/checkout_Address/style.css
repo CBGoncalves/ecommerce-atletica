@@ -1,0 +1,123 @@
+/* style.css */
+
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .address-section, .summary-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address-section {
+    width: 55%;
+    margin-right: 20px;
+  }
+  
+  .summary-section {
+    width: 40%;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input[type="text"] {
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .input-large {
+    width: 75%;
+  }
+  
+  .input-small {
+    width: 20%;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .summary-details {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .summary-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .shipping-option {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .shipping-option input {
+    margin-right: 10px;
+  }
+  
+  .shipping-option.selected {
+    border: 2px solid #4CAF50;
+    background-color: #e8f5e9;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .checkout-container {
+      flex-direction: column;
+    }
+  
+    .address-section, .summary-section {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
