@@ -2,3 +2,57 @@
     display: flex;
     flex-direction: column;
 }
+
+.header-home {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F1F2C;
+    gap: 100px;
+}
+
+.header-text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #D30A36;
+}
+
+.header-img {
+    width: 350px;
+}
+
+.emphasis-area {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #D30A36;
+}
+
+.emphasis-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.category-area {
+    height: 500px;
+    background-color: #0F1F2C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #D30A36;
+}
+
+.category-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
