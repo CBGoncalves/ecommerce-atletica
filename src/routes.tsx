@@ -4,7 +4,7 @@ import Login from './pages/login';
 import ForgotPassword from './pages/forgot-password';
 import Register from './pages/register';
 import HomeScreen from './pages/home';
-import CheckoutPage from './pages/checkout_Address/Index';
+import CheckoutPage from './pages/checkout_address/Index';
 
 export default function AppRoutes() {
     return (
