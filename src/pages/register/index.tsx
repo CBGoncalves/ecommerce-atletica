@@ -21,8 +21,8 @@ export default function Register() {
                 <Input id="confirm-pass-input" type="password" placeholder="Confirmar Senha" />
             </div>
             <div className="register-buttons">
-                <Button id="register-button" link="/home" text="CADASTRAR" />
-                <InlineButton id="inline-register" link="/" text="Já possui cadastro? Fazer login!" />
+                <Button id="register-button" link="/" text="CADASTRAR" />
+                <InlineButton id="inline-register" link="/login" text="Já possui cadastro? Fazer login!" />
             </div>
         </div>
     )

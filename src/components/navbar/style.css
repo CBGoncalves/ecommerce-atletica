@@ -42,8 +42,10 @@
     background-color: #111F2B;
 }
 
-.icon-cart {
+.end-icons {
     display: flex;
+    flex-direction: row;
+    gap: 50px;
     align-items: center;
     margin-left: auto;
     margin-right: 30px;

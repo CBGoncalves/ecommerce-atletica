@@ -10,10 +10,10 @@ export default function AppRoutes() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Login />} />
+                <Route path="/login" element={<Login />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/register" element={<Register />} />
-                <Route path="/home" element={<HomeScreen />} />
+                <Route path="/" element={<HomeScreen />} />
                 <Route path="/checkout" element={<CheckoutPage />} />
             </Routes>
         </Router>

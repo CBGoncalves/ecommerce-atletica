@@ -26,7 +26,7 @@ export default function Login() {
                 <Input id="input-email" type="text" placeholder="Email" />
                 <Input id="input-senha" type="password" placeholder="Senha" />
                 <InlineButton id="inline-esqueci-senha" link="/forgot-password" text="Esqueci a Senha" />
-                <Button id="login-button" link="/home" text="ENTRAR" />
+                <Button id="login-button" link="/" text="ENTRAR" />
                 <InlineButton id="inline-cadastro" link="/register" text="Não possui conta? Cadastre-se" />
             </div>
 
