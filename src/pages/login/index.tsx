@@ -18,7 +18,7 @@ export default function Login() {
                     <p>ou cadastre-se</p>
                 </div>
                 <div>
-                    <img src="./assets/img/logo.png" alt="Logo" />
+                    <img className="logo-login" src="./assets/img/logo.png" alt="Logo" />
                 </div>
             </div>
 
