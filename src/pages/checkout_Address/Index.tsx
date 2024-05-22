@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import './style.css';
 import Navbar from "../../components/navbar";
 
-const CheckoutPage: React.FC = () => {
+export default function CheckoutPage() {
+
   const [street, setStreet] = useState('');
   const [number, setNumber] = useState('');
   const [neighborhood, setNeighborhood] = useState('');
@@ -11,9 +12,8 @@ const CheckoutPage: React.FC = () => {
   const [zip, setZip] = useState('');
   const [shippingMethod, setShippingMethod] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert('Processing Data');
+  const handleSubmit = () => {
+    alert('Processando dados de endereço!');
   };
 
   return (
@@ -128,5 +128,3 @@ const CheckoutPage: React.FC = () => {
     </div>
   );
 };
-
-export default CheckoutPage;
