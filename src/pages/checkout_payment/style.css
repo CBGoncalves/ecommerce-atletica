@@ -1,0 +1,176 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F9EEE1;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #d32f2f;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-content {
+  padding-top: 70px;
+  /* Ajuste para a altura da navbar */
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #F9EEE1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-section,
+.right-section {
+  width: 48%;
+}
+
+.payment-section,
+.summary-section,
+.discount-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.payment-section h2,
+.summary-section h2,
+.discount-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #dcdcdc;
+  color: #000;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* Espaçamento entre mês e ano */
+}
+
+.input-small {
+  width: calc(50% - 5px);
+}
+
+.input-small:last-child {
+  margin-right: 0;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  /* Espaçamento extra acima dos botões de pagamento */
+}
+
+.payment-option {
+  width: 32%;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.payment-option.selected {
+  border: 2px solid #4CAF50;
+  background-color: #e8f5e9;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.summary-details {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+.discount-section .form-group input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #dcdcdc;
+  color: #000;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #000;
+  color: gray;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.qrcode-placeholder img {
+  max-width: 100;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  /* Centraliza a imagem */
+}
+
+.boleto-info {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .checkout-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

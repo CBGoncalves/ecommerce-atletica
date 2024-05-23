@@ -1,0 +1,62 @@
+/* Cart.css */
+.cart {
+    position: fixed;
+    top: 65px; /* Alinhado com a navbar */
+    right: 0;
+    width: 300px;
+    height: calc(100% - 65px);
+    background-color: #D30A36; /* Cor de fundo */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1001; /* Sobrepõe a navbar */
+    color: white;
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+}
+
+.cart-items {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 15px;
+    background-color: white; /* Cor de fundo dos itens */
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+}
+
+.cart-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkout-button {
+    background-color: #111F2B; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.checkout-button:hover {
+    background-color: #0d1a25;
+}
