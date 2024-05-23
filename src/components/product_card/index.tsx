@@ -1,29 +1,32 @@
 import React from "react";
+import Navbar from "../../components/navbar";
 
 import "./style.css";
-import Button from "../../components/button";
+import { useNavigate } from "react-router-dom";
 
 type Props = {
-    imgAreaBg: string;
+    id: number;
     img: string;
     alt: string;
-    textAreaBg: string;
-    title: string;
-    titleColor: string;
-    textButton: string;
-    link: string;
+    titleProduct: string;
+    description: string;
+    price: string;
 }
 
 export default function ProductCard(props: Props) {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate(`/product/${props.id}`);
+    };
+
     return (
-        <div className="card-product">
-            <div className="img-area" style={{ backgroundColor: props.imgAreaBg }}>
-                <img className="img-product" src={props.img} alt={props.alt} />
-            </div>
-            <div className="text-area" style={{ backgroundColor: props.textAreaBg }}>
-                <h3 className="title-text" style={{ color: props.titleColor }}>{props.title}</h3>
-                <Button id="text-area-button" text={props.textButton} link={props.link}></Button>
-            </div>
+        <div className="product-card" onClick={handleClick}>
+            <img className="product-img" src={props.img} alt={props.alt} />
+            <h3 className="product-title">{props.titleProduct}</h3>
+            <p className="product-description">{props.description}</p>
+            <h3 className="product-price">R$ {props.price}</h3>
         </div>
     );
 }

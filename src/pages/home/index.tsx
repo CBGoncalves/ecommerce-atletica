@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar";
 
 import "./style.css";
 import Button from "../../components/button";
-import ProductCard from "../../components/product_card";
+import HomeCard from "../../components/home_card";
 
 var emphasisTextButton: string = "Ver Produto";
 var emphasisTitleColor: string = "#FFFFFF"
@@ -25,7 +25,7 @@ export default function HomeScreen() {
                 <div className="emphasis-area">
                     <h1>Produtos em Destaque</h1>
                     <div className="emphasis-cards">
-                        <ProductCard
+                        <HomeCard
                             imgAreaBg="#FFFFFF"
                             img="./assets/img/caneca-gladiador.png"
                             alt="Caneca Gladiador"
@@ -35,7 +35,7 @@ export default function HomeScreen() {
                             textButton={emphasisTextButton}
                             link="/checkout"
                         />
-                        <ProductCard
+                        <HomeCard
                             imgAreaBg="#FFFFFF"
                             img="./assets/img/oversized-minotaurus.png"
                             alt="Caneca Gladiador"
@@ -45,7 +45,7 @@ export default function HomeScreen() {
                             textButton={emphasisTextButton}
                             link="/"
                         />
-                        <ProductCard
+                        <HomeCard
                             imgAreaBg="#FFFFFF"
                             img="./assets/img/blusa-header.png"
                             alt="Caneca Gladiador"
@@ -60,7 +60,7 @@ export default function HomeScreen() {
                 <div className="category-area">
                     <h1>Categorias</h1>
                     <div className="category-cards">
-                        <ProductCard
+                        <HomeCard
                             imgAreaBg="#D30A36"
                             img="./assets/img/caneca-gladiador.png"
                             alt="Canecas"
@@ -70,7 +70,7 @@ export default function HomeScreen() {
                             textButton={categoryTextButton}
                             link="/"
                         />
-                        <ProductCard
+                        <HomeCard
                             imgAreaBg="#D30A36"
                             img="./assets/img/uniformes.png"
                             alt="Uniformes"
@@ -80,7 +80,7 @@ export default function HomeScreen() {
                             textButton={categoryTextButton}
                             link="/"
                         />
-                        <ProductCard
+                        <HomeCard
                             imgAreaBg="#D30A36"
                             img="./assets/img/camisetas.png"
                             alt="Camisetas"
@@ -90,7 +90,7 @@ export default function HomeScreen() {
                             textButton={categoryTextButton}
                             link="/"
                         />
-                        <ProductCard
+                        <HomeCard
                             imgAreaBg="#D30A36"
                             img="./assets/img/blusa-header.png"
                             alt="Moletons"

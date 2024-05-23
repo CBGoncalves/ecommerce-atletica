@@ -1,0 +1,36 @@
+.card-product {
+    width: 300px;
+}
+
+.img-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img-product {
+    width: 140px;
+    height: 150px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title-text {
+    color: white;
+    align-self: flex-start;
+}
+
+#text-area-button {
+    width: 150px;
+    align-self: flex-end;
+}

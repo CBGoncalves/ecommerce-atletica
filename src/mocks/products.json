@@ -1,0 +1,46 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "img": "./assets/img/oversized-minotaurus.png",
+            "title": "Camiseta Oversized Minotaurus",
+            "description": "Camiseta oversized estampada com mascote Minotaurus.",
+            "price": "R$ 80,00"
+        },
+        {
+            "id": 2,
+            "img": "./assets/img/blusa-header.png",
+            "title": "Blusa MinoAngels",
+            "description": "Blusa de frio estampada com a logo do nosso tipo de vôlei, os MinoAngels, voe como um deles.",
+            "price": "R$ 100,00"
+        },
+        {
+            "id": 3,
+            "img": "./assets/img/caneca-gladiador.png",
+            "title": "Caneca Gladiadores",
+            "description": "Caneca de ferro dos gladiadores que mantém sua bebida gelada por até 4 horas.",
+            "price": "R$ 40,00"
+        },
+        {
+            "id": 4,
+            "img": "./assets/img/camisetas.png",
+            "title": "Camiseta Oversized MinoWolfs",
+            "description": "Camiseta oversized estampada com o mascote do nosso time de futebol MinoWolf.",
+            "price": "R$ 99,00"
+        },
+        {
+            "id": 5,
+            "img": "./assets/img/caneca-guerreiro.png",
+            "title": "Caneca Guerreiro",
+            "description": "Caneca de ferro com capacete do gladiador que mantém sua bebida gelada por até 4 horas.",
+            "price": "R$ 40,00"
+        },
+        {
+            "id": 6,
+            "img": "./assets/img/uniformes.png",
+            "title": "Camiseta Time Basquete Minotaurus",
+            "description": "Vista-se com a força do nosso time de basquete com o seu uniforme.",
+            "price": "R$ 75,00"
+        }
+    ]
+}
