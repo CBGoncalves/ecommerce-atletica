@@ -4,7 +4,8 @@ import Login from './pages/login';
 import ForgotPassword from './pages/forgot-password';
 import Register from './pages/register';
 import HomeScreen from './pages/home';
-import CheckoutPage from './pages/checkout_address/Index';
+import CheckoutPage from './pages/checkout_Address/Index';
+import CheckoutPagePayment from './pages/checkout_payment';
 
 export default function AppRoutes() {
     return (
@@ -15,6 +16,7 @@ export default function AppRoutes() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/" element={<HomeScreen />} />
                 <Route path="/checkout" element={<CheckoutPage />} />
+                <Route path="/checkoutpayment" element={<CheckoutPagePayment />} />
             </Routes>
         </Router>
     );
