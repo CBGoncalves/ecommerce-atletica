@@ -33,7 +33,7 @@ export default function HomeScreen() {
                             title="Caneca de Metal Gladiadores"
                             titleColor={emphasisTitleColor}
                             textButton={emphasisTextButton}
-                            link="/checkoutpayment"
+                            link="/"
                         />
                         <HomeCard
                             imgAreaBg="#FFFFFF"

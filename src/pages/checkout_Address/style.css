@@ -55,7 +55,8 @@ body {
 }
 
 .main-content {
-  padding-top: 70px; /* Adjust this value to match the height of your navbar */
+  padding-top: 70px;
+  /* Adjust this value to match the height of your navbar */
 }
 
 .checkout-container {
@@ -238,4 +239,9 @@ button:hover {
   margin-top: 10px;
   font-weight: bold;
   color: green;
+}
+
+.button-submit {
+  text-decoration: none;
+  color: white;
 }

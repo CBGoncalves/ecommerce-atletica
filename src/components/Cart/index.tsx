@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./style.css";
-import CheckoutPage from "../../pages/checkout_Address/Index";
+import CheckoutPage from "../../pages/checkout_address/Index";
 import { Navigate } from "react-router-dom";
 import Button from "../button";
 

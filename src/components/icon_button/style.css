@@ -1,0 +1,17 @@
+.button {
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    background-color: #D30A36;
+    color: aliceblue;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.text-button {
+    text-decoration: none;
+    color: white;
+}

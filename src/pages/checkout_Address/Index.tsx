@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './style.css';
 import Navbar from "../../components/navbar";
+import { Link } from 'react-router-dom';
 
 export default function CheckoutPage() {
 
@@ -121,7 +122,7 @@ export default function CheckoutPage() {
                 <input type="text" placeholder="Código de Desconto" />
               </div>
             </div>
-            <button type="submit" onClick={handleSubmit}>Continuar</button>
+            <button type="submit" onClick={handleSubmit}><Link className="button-submit" to="/checkoutpayment">Continuar</Link></button>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import Cart from "../Cart";
+import Cart from "../cart";
 
 export default function Navbar() {
     const [cartVisible, setCartVisible] = useState(false);

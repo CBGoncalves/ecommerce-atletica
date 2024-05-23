@@ -18,7 +18,7 @@ export default function ProductCard(props: Props) {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(`/product/${props.id}`);
+        navigate("/product");
     };
 
     return (

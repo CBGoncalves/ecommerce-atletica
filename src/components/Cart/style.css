@@ -1,17 +1,21 @@
 /* Cart.css */
 .cart {
     position: fixed;
-    top: 65px; /* Alinhado com a navbar */
+    top: 65px;
+    /* Alinhado com a navbar */
     right: 0;
-    width: 300px;
+    width: 400px;
     height: calc(100% - 65px);
-    background-color: #D30A36; /* Cor de fundo */
+    background-color: #D30A36;
+    /* Cor de fundo */
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    z-index: 1001; /* Sobrepõe a navbar */
+    z-index: 1001;
+    /* Sobrepõe a navbar */
     color: white;
+    border-radius: 10px;
 }
 
 .cart h2 {
@@ -26,7 +30,8 @@
 .cart-item {
     display: flex;
     margin-bottom: 15px;
-    background-color: white; /* Cor de fundo dos itens */
+    background-color: white;
+    /* Cor de fundo dos itens */
     border-radius: 8px;
     padding: 10px;
     color: black;
@@ -45,7 +50,6 @@
 }
 
 .checkout-button {
-    background-color: #111F2B; /* Cor do botão */
     color: white;
     border: none;
     border-radius: 8px;
@@ -55,6 +59,7 @@
     align-self: center;
     width: 100%;
     text-align: center;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .checkout-button:hover {

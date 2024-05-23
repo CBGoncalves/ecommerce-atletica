@@ -1,0 +1,46 @@
+/* style.css */
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 4%;
+    padding: 10px;
+}
+
+.thumbnails-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+
+.thumbnail.selected {
+    border: 2px solid #D30A36;
+    border-radius: 5px;
+}
+
+.navigation-button {
+    background-color: #D30A36;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.navigation-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
